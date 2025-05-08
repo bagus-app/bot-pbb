@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-bot-pbb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.17.16",
+    "axios": "^1.9.0",
+    "papaparse": "^5.5.2",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
