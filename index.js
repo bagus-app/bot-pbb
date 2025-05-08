@@ -5,6 +5,7 @@ const axios = require("axios");
 const { parse } = require("papaparse");
 const qrcode = require("qrcode-terminal");
 const pino = require("pino");
+const crypto = require('crypto-browserify');
 
 const {
   makeWASocket,
